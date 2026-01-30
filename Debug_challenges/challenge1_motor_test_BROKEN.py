@@ -20,8 +20,8 @@ rear_right_1 = Pin(2, Pin.OUT)
 rear_right_2 = Pin(3, Pin.OUT)
 
 # Spin all wheels forward
-def spin_forward()  # BUG: Missing colon (:)
-front_left_1.high(); front_left_2.low()  # BUG: No indentation
+def spin_forward()
+front_left_1.high(); front_left_2.low()
 front_right_1.high(); front_right_2.low()
 rear_left_1.high(); rear_left_2.low()
 rear_right_1.high(); rear_right_2.low()
