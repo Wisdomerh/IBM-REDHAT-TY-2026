@@ -9,7 +9,7 @@ This repository contains all the materials you'll need for the week-long robotic
 - **Tuesday:** Python basics + Robot assembly
 - **Wednesday:** SETU Visit
 - **Thursday:** Competition preparation (debugging, customization, practice)
-- **Friday:** IBM AI session + **ROBOT COMPETITION! & PIZZAS** 🏆
+- **Friday:** IBM AI session + **ROBOT COMPETITION & PIZZAS!** 🏆
 
 ## 🚀 Getting Started
 
