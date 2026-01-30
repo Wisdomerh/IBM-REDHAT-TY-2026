@@ -22,8 +22,8 @@ def turn_right():
     rl1.high(); rl2.low(); rr1.low(); rr2.high()
 
 # Drive in square
-for i in range(3):  # BUG: Should be range(4) for 4 sides of a square
+for i in range(3):
     forward()
     time.sleep(2)
-    turn_right  # BUG: Missing () - should be turn_right()
+    turn_right
     time.sleep(0.5)
