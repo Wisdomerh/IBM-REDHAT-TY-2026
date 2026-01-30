@@ -8,7 +8,7 @@ from machine import Pin, time_pulse_us
 import time
 
 trig = Pin(14, Pin.OUT)
-echo = Pin(15, Pin.OUT)  # BUG: Should be Pin.IN not Pin.OUT
+echo = Pin(15, Pin.OUT)
 
 def get_distance():
     trig.value(0)
@@ -18,10 +18,10 @@ def get_distance():
     trig.value(0)
     
     pulse_time = time_pulse_us(echo, 1, 30000)
-    distance = (pulse_time * 2) / 29.1  # BUG: Should divide by 2, not multiply
+    distance = (pulse_time * 2) / 29.1
     return distance
 
 while True:
     dist = get_distance()
-    print("Distance:", distance, "cm")  # BUG: Wrong variable name (should be dist not distance)
+    print("Distance:", distance, "cm")
     time.sleep(1)
