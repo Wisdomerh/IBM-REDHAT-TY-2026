@@ -6,11 +6,10 @@ This repository contains all the materials you'll need for the week-long robotic
 
 ## 📅 Program Schedule
 
-- **Monday:** Program overview (with IBM & partner organizations)
 - **Tuesday:** Python basics + Robot assembly
-- **Wednesday:** Advanced Python + Robot programming
+- **Wednesday:** SETU Visit
 - **Thursday:** Competition preparation (debugging, customization, practice)
-- **Friday:** IBM AI session + **ROBOT COMPETITION!** 🏆
+- **Friday:** IBM AI session + **ROBOT COMPETITION! & PIZZAS** 🏆
 
 ## 🚀 Getting Started
 
